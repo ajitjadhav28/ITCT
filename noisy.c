@@ -48,8 +48,6 @@ int main()
 		}
 			entphy_py += entrophy(Py,3);
 			entphy_px += entrophy(Px,3);
-		entphy_py *= -1;
-		entphy_px *= -1;
 	printf("\nEntrophy of P(X)\t=\t%f\n", entphy_px);
 	printf("Entrophy of P(Y)\t=\t%f\n", entphy_py);
 	capa = log10f(3)/log10f(2);

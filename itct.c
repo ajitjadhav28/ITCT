@@ -30,7 +30,7 @@ float entrophy(float *arrP, int l)
 	{
 		entr += arrP[l]*info(arrP[l]);
 	}
-	return entr;
+	return (entr*-1);
 }
 
 // efficiency for entrophy h and avgerage number 
