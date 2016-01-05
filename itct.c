@@ -33,6 +33,19 @@ float entrophy(float *arrP, int l)
 	return (entr*-1);
 }
 
+float entrophy_ij(float *arrP, int i, int j)
+{
+	float entr;
+	int k, l;
+	entr=0;
+	for(k = k-1; k >= 0; k--)
+	{
+		for(l = l-1; l >= 0; l--)
+			entr += arrP[k][l]*info(arrP[k][l]);
+	}
+	return (entr*-1);
+}
+
 // efficiency for entrophy h and avgerage number 
 // of bits
 float efficiency(float h, int avgNumBits)

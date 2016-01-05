@@ -1,3 +1,3 @@
-float log2(float);
-float info(float);
-float entrophy(float ,int );
+float log2f(float p);
+float info(float p);
+float entrophy(float *arrP, int l);
