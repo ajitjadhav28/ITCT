@@ -4,7 +4,6 @@
  */
 
 #include <math.h>
-#include <string.h>
 #include "itct.h"
 
 // log2f() function to calculate log of base 
