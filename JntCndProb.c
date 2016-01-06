@@ -49,7 +49,7 @@ int main()
 		}
 	}
 
-	printf("P(Y/X) -\n");
+	printf("\nP(Y/X) -\n");
 	for (i=0; i<2; i++)
 	{
 		printf("\n");
@@ -59,7 +59,7 @@ int main()
 		}
 	}
 
-	printf("H(x) = %f\n",entPx);
+	printf("\nH(x) = %f\n",entPx);
 	printf("H(Y/X) = %f\n",entPyPx);
 	return 0;
 }
