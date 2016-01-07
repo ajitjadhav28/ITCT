@@ -1,6 +1,6 @@
 /* Author - Ajit Jadhav
  * Title  - Functions for ITCT practicals
- * Date   - 04/01/2016
+ * Date Started  - 04/01/2016
  */
 
 #include <math.h>
@@ -21,17 +21,13 @@ float info(float p)
 
 // calculates entrophy for given array arrP[] 
 // and length of array is given by l
-float entrophy(float *arrP, int l)
+float entrophy(float P, int l)
 {
-	float entr;
-	entr=0;
-	for(l = l-1; l>=0; l--)
-	{
-		entr += arrP[l]*info(arrP[l]);
-	}
-	return (entr*-1);
+	return ((P*info(P))*-1);
 }
 
+// calculates entrophy for given multidimentional array  
+// arrP[][] and length of array is given by i, j
 float entrophy_ij(float *arrP, int i, int j)
 {
 	float entr;
